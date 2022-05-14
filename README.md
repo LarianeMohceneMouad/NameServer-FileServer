@@ -41,7 +41,7 @@ pip install Pyro4 should do the trick, Pyro4 is available on Pypi : https://pypi
 #### NOTE: We're using Pyro4 library in this project, but still Pyro5 is also available (recommended)
 
 ### Steps:
-1- Create several folders, each folder represents a file server and conatains files available on it (you'll have to change the path and files names... and adapt it to suit your architecture and files distribution)
+1- Create several folders, each folder represents a file server and contains files available on it (you'll have to change the path and files names... and adapt it to suit your architecture and files distribution)
 
 2- Start the Pyro's naming server (This explained in the Pyro's doc) in the cmd using this command : python -m Pyro4.naming (windows)
 
