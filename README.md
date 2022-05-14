@@ -53,7 +53,7 @@ pip install Pyro4 should do the trick, Pyro4 is available on Pypi : https://pypi
 
 5 Start clients
  
-#### Note: the clients use an UI (tree) to navigate it's local repository of logic distant files and choose one
+#### Note: the clients use an UI (tree) to navigate its local repository of logic distant files and choose one
 
 
 
