@@ -3,7 +3,7 @@ Implementing a NameServer-FileServer architecture in Python using Pyro library a
 
 ## Details :
 
-In this project we implemented a File-Server Name-Server architecture, this latter can offer distante service to clients in order to access files distante files and operate actions on them.
+In this project we implemented a File-Server Name-Server architecture, this latter can offer distante service to clients in order to access distante files and operate actions on them.
 
 ## How it works (theory):
 
