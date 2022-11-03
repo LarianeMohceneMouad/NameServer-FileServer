@@ -35,25 +35,22 @@ Pyro doc : https://pyro4.readthedocs.io/en/stable/index.html
 Some Linux distributions offer Pyro4 through their package manager. Make sure you install the correct one for the python version that you are using. It may be more convenient to just pip install it instead in a virtualenv.
 #### Anaconda:
 Anaconda users can install the Pyro4 package from conda-forge using: conda install -c conda-forge pyro4
-#### Pip install:
-pip install Pyro4 should do the trick, Pyro4 is available on Pypi : https://pypi.org/project/Pyro4/
+> Pip install: pip install Pyro4 should do the trick, Pyro4 is available on (Pypi)[https://pypi.org/project/Pyro4/]
 
 #### NOTE: We're using Pyro4 library in this project, but still Pyro5 is also available (recommended)
 
 ### Steps:
-1- Create several folders, each folder represents a file server and contains files available on it (you'll have to change the path and files names... and adapt it to suit your architecture and files distribution)
+- 1. Create several folders, each folder represents a file server and contains files available on it (you'll have to change the path and files names... and adapt it to suit your architecture and files distribution)
+- 2. Start the Pyro's naming server (This is explained in the Pyro's doc) using this cmd command : python -m Pyro4.naming 
 
-2- Start the Pyro's naming server (This is explained in the Pyro's doc) using this cmd command : python -m Pyro4.naming 
+  To see the all published Pyro Objects use the cmd command : python -m Pyro4.nsc list  
+- 3. Start the name server : name server.py
 
-  To see the all published Pyro Objects use the cmd command : python -m Pyro4.nsc list
-  
-3- Start the name server : name server.py
+- 4. Start the file servers: file server.py and file server 2.py
 
-4 - Start the file servers: file server.py and file server 2.py
-
-5 Start clients
+- 5. Start clients
  
-#### Note: the clients use an UI (tree) to navigate its local repository of logic distant files and choose one tp access
+> Note: the clients use an UI (tree) to navigate its local repository of logic distant files and choose one tp access
 
 
 
