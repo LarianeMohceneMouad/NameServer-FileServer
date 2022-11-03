@@ -30,12 +30,12 @@ Two clients
 
 ## Before we start:
 ### Install Pyro library:
-Pyro doc : https://pyro4.readthedocs.io/en/stable/index.html
+[Pyro doc](https://pyro4.readthedocs.io/en/stable/index.html)
 #### Linux:
 Some Linux distributions offer Pyro4 through their package manager. Make sure you install the correct one for the python version that you are using. It may be more convenient to just pip install it instead in a virtualenv.
 #### Anaconda:
 Anaconda users can install the Pyro4 package from conda-forge using: conda install -c conda-forge pyro4
-> Pip install: pip install Pyro4 should do the trick, Pyro4 is available on (Pypi)[https://pypi.org/project/Pyro4/]
+> Pip install: pip install Pyro4 should do the trick, Pyro4 is available on [Pypi](https://pypi.org/project/Pyro4/)
 
 #### NOTE: We're using Pyro4 library in this project, but still Pyro5 is also available (recommended)
 
